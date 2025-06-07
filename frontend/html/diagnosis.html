@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>אבחון סוג העור</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>אבחון סוג העור שלך</h2>
+
+<form id="skinTypeForm" action="next_page.html">
+    <div class="skin-type-container">
+
+        <!-- עור שומני -->
+        <label class="skin-option">
+            <input type="radio" name="skinType" value="oily">
+            <img src="oily_skin.jpg" alt="עור שומני">
+            <div class="skin-label">נקבוביות מוגדלות, שומניות באזור מרכז הפנים, נטייה לאקנה</div>
+        </label>
+
+        <!-- עור יבש -->
+        <label class="skin-option">
+            <input type="radio" name="skinType" value="dry">
+            <img src="dry_skin.jpg" alt="עור יבש">
+            <div class="skin-label">עור מרגיש מתוח, אדמומיות, קילוף בעור</div>
+        </label>
+
+        <!-- עור מעורב -->
+        <label class="skin-option">
+            <input type="radio" name="skinType" value="combination">
+            <img src="combination_skin.jpg" alt="עור מעורב">
+            <div class="skin-label">אזור מרכז הפנים שומני, אזור סביב הפנים יבש, נקבוביות מוגדלות</div>
+        </label>
+
+        <!-- עור רגיש (כתוסף) -->
+        <label class="skin-option">
+            <input type="checkbox" name="sensitive" value="true">
+            <img src="sensitive_skin.jpg" alt="עור רגיש">
+            <div class="skin-label">נטייה לאדמומיות, תגובתיות לרכיבים, תחושת עקצוץ או שריפה</div>
+        </label>
+
+        <!-- כפתור מעבר לדף הבא -->
+        <a href="skin-conditions.html" class="next-btn">המשיכי לאבחון מצבי עור</a>
+
+    </div>
+</form>
+
+</body>
+</html>
